@@ -19,19 +19,17 @@ body {
 }
 
 .navbar-brand {
-    padding-top: 25px;
+    top: 50%;
+    left: 50%;
 }
 
 .navbar-brand h1 { /* Company name */
     font-family: 'Lora', serif;
     color: #000;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -50,3 +48,21 @@ body {
 #nav-list a:hover {
     background-color: gray;
 }
+/* END HEADER */
+
+/* HOME PAGE */
+#main-content {
+    background-color: #FFCD11;
+}
+
+.jumbotron {
+    width: 50%;
+    display: inline-block;
+}
+.main-text {
+    width: 50%;
+    display: inline;
+    color: #000;
+}
+
+/* END HOME PAGE */
